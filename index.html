@@ -1,0 +1,1180 @@
+<html lang="zh-TW"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>學測英文作文智慧批改教室 | 陽明高中 魏山姆</title>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Google Fonts: Nunito & Noto Sans TC -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&amp;family=Noto+Sans+TC:wght@400;500;700&amp;family=Nunito:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- FontAwesome for Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            macaron: {
+              pink: '#FFD6DF',
+              rose: '#FFAAA6',
+              mint: '#D8F3DC',
+              pistachio: '#B7E4C7',
+              lavender: '#E2D4F0',
+              lilac: '#C8B6FF',
+              lemon: '#FEF3C7',
+              peach: '#FFE5D9',
+              blue: '#D0F4DE',
+              textDark: '#4A4063',
+              cardBg: '#FFFDF9'
+            }
+          },
+          fontFamily: {
+            sans: ['"Noto Sans TC"', 'Nunito', 'sans-serif'],
+            fun: ['Fredoka', '"Noto Sans TC"', 'sans-serif']
+          },
+          boxShadow: {
+            'pastel': '0 8px 25px -5px rgba(226, 212, 240, 0.6), 0 8px 10px -6px rgba(255, 170, 166, 0.2)',
+            'pastel-sm': '0 4px 15px -2px rgba(200, 182, 255, 0.4)',
+            'bubble': '0 10px 0px 0px rgba(0,0,0,0.06)'
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    body {
+      background: linear-gradient(135deg, #FFF0F5 0%, #F3E8FF 50%, #E8F8F5 100%);
+      min-height: 100vh;
+      color: #4A4063;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #FDF2F4;
+      border-radius: 9999px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #F3C6D1;
+      border-radius: 9999px;
+    }
+    .tab-active {
+      background: #FFFFFF;
+      color: #5C4B75;
+      font-weight: 700;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+  </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:"Noto Sans TC", Nunito, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.pointer-events-none{pointer-events:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0px}.right-2{right:0.5rem}.right-3{right:0.75rem}.right-5{right:1.25rem}.top-0{top:0px}.top-2{top:0.5rem}.top-2\.5{top:0.625rem}.top-5{top:1.25rem}.z-10{z-index:10}.z-40{z-index:40}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.my-0\.5{margin-top:0.125rem;margin-bottom:0.125rem}.mb-1{margin-bottom:0.25rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mr-1{margin-right:0.25rem}.mt-1{margin-top:0.25rem}.mt-16{margin-top:4rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-12{height:3rem}.h-2{height:0.5rem}.h-20{height:5rem}.h-6{height:1.5rem}.h-7{height:1.75rem}.h-8{height:2rem}.h-full{height:100%}.max-h-48{max-height:12rem}.min-h-\[480px\]{min-height:480px}.w-1\/3{width:33.333333%}.w-10{width:2.5rem}.w-12{width:3rem}.w-20{width:5rem}.w-3\/4{width:75%}.w-48{width:12rem}.w-6{width:1.5rem}.w-7{width:1.75rem}.w-8{width:2rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-6xl{max-width:72rem}.max-w-md{max-width:28rem}.max-w-sm{max-width:24rem}.max-w-xs{max-width:20rem}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.border-collapse{border-collapse:collapse}.translate-y-\[-150\%\]{--tw-translate-y:-150%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes bounce{0%, 100%{transform:translateY(-25%);animation-timing-function:cubic-bezier(0.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,0.2,1)}}.animate-bounce{animation:bounce 1s infinite}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite}.cursor-pointer{cursor:pointer}.resize-y{resize:vertical}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.items-baseline{align-items:baseline}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:0.25rem}.gap-1\.5{gap:0.375rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.space-x-1\.5 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.375rem * var(--tw-space-x-reverse));margin-left:calc(0.375rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-3 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.75rem * var(--tw-space-x-reverse));margin-left:calc(0.75rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-5 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.25rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.divide-y > :not([hidden]) ~ :not([hidden]){--tw-divide-y-reverse:0;border-top-width:calc(1px * calc(1 - var(--tw-divide-y-reverse)));border-bottom-width:calc(1px * var(--tw-divide-y-reverse))}.divide-purple-50 > :not([hidden]) ~ :not([hidden]){--tw-divide-opacity:1;border-color:rgb(250 245 255 / var(--tw-divide-opacity, 1))}.overflow-hidden{overflow:hidden}.overflow-x-auto{overflow-x:auto}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-dashed{border-style:dashed}.border-amber-100{--tw-border-opacity:1;border-color:rgb(254 243 199 / var(--tw-border-opacity, 1))}.border-blue-100{--tw-border-opacity:1;border-color:rgb(219 234 254 / var(--tw-border-opacity, 1))}.border-emerald-100{--tw-border-opacity:1;border-color:rgb(209 250 229 / var(--tw-border-opacity, 1))}.border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246 / var(--tw-border-opacity, 1))}.border-macaron-lavender{--tw-border-opacity:1;border-color:rgb(226 212 240 / var(--tw-border-opacity, 1))}.border-macaron-lemon\/70{border-color:rgb(254 243 199 / 0.7)}.border-macaron-lilac\/40{border-color:rgb(200 182 255 / 0.4)}.border-macaron-mint{--tw-border-opacity:1;border-color:rgb(216 243 220 / var(--tw-border-opacity, 1))}.border-macaron-peach\/60{border-color:rgb(255 229 217 / 0.6)}.border-macaron-pink\/40{border-color:rgb(255 214 223 / 0.4)}.border-macaron-pink\/60{border-color:rgb(255 214 223 / 0.6)}.border-macaron-pistachio\/50{border-color:rgb(183 228 199 / 0.5)}.border-macaron-rose{--tw-border-opacity:1;border-color:rgb(255 170 166 / var(--tw-border-opacity, 1))}.border-macaron-rose\/40{border-color:rgb(255 170 166 / 0.4)}.border-pink-50{--tw-border-opacity:1;border-color:rgb(253 242 248 / var(--tw-border-opacity, 1))}.border-purple-100{--tw-border-opacity:1;border-color:rgb(243 232 255 / var(--tw-border-opacity, 1))}.border-purple-100\/80{border-color:rgb(243 232 255 / 0.8)}.border-purple-200{--tw-border-opacity:1;border-color:rgb(233 213 255 / var(--tw-border-opacity, 1))}.border-rose-100{--tw-border-opacity:1;border-color:rgb(255 228 230 / var(--tw-border-opacity, 1))}.border-white\/60{border-color:rgb(255 255 255 / 0.6)}.bg-amber-100{--tw-bg-opacity:1;background-color:rgb(254 243 199 / var(--tw-bg-opacity, 1))}.bg-amber-50\/50{background-color:rgb(255 251 235 / 0.5)}.bg-amber-50\/80{background-color:rgb(255 251 235 / 0.8)}.bg-black\/30{background-color:rgb(0 0 0 / 0.3)}.bg-black\/60{background-color:rgb(0 0 0 / 0.6)}.bg-blue-50\/50{background-color:rgb(239 246 255 / 0.5)}.bg-blue-50\/70{background-color:rgb(239 246 255 / 0.7)}.bg-blue-50\/80{background-color:rgb(239 246 255 / 0.8)}.bg-emerald-50\/40{background-color:rgb(236 253 245 / 0.4)}.bg-emerald-50\/70{background-color:rgb(236 253 245 / 0.7)}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.bg-gray-100\/80{background-color:rgb(243 244 246 / 0.8)}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-gray-50\/70{background-color:rgb(249 250 251 / 0.7)}.bg-macaron-lavender{--tw-bg-opacity:1;background-color:rgb(226 212 240 / var(--tw-bg-opacity, 1))}.bg-macaron-lemon{--tw-bg-opacity:1;background-color:rgb(254 243 199 / var(--tw-bg-opacity, 1))}.bg-macaron-mint{--tw-bg-opacity:1;background-color:rgb(216 243 220 / var(--tw-bg-opacity, 1))}.bg-macaron-peach{--tw-bg-opacity:1;background-color:rgb(255 229 217 / var(--tw-bg-opacity, 1))}.bg-macaron-pink{--tw-bg-opacity:1;background-color:rgb(255 214 223 / var(--tw-bg-opacity, 1))}.bg-macaron-pink\/40{background-color:rgb(255 214 223 / 0.4)}.bg-purple-50{--tw-bg-opacity:1;background-color:rgb(250 245 255 / var(--tw-bg-opacity, 1))}.bg-purple-50\/20{background-color:rgb(250 245 255 / 0.2)}.bg-purple-50\/70{background-color:rgb(250 245 255 / 0.7)}.bg-purple-50\/80{background-color:rgb(250 245 255 / 0.8)}.bg-purple-50\/90{background-color:rgb(250 245 255 / 0.9)}.bg-rose-50\/70{background-color:rgb(255 241 242 / 0.7)}.bg-rose-50\/80{background-color:rgb(255 241 242 / 0.8)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/70{background-color:rgb(255 255 255 / 0.7)}.bg-white\/80{background-color:rgb(255 255 255 / 0.8)}.bg-rose-100{--tw-bg-opacity:1;background-color:rgb(255 228 230 / var(--tw-bg-opacity, 1))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.bg-gradient-to-tr{background-image:linear-gradient(to top right, var(--tw-gradient-stops))}.from-macaron-peach{--tw-gradient-from:#FFE5D9 var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 229 217 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-macaron-pink{--tw-gradient-from:#FFD6DF var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 214 223 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-macaron-pink\/70{--tw-gradient-from:rgb(255 214 223 / 0.7) var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 214 223 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-macaron-rose{--tw-gradient-from:#FFAAA6 var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 170 166 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-macaron-lilac{--tw-gradient-to:rgb(200 182 255 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #C8B6FF var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-macaron-peach{--tw-gradient-to:rgb(255 229 217 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #FFE5D9 var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-macaron-peach\/70{--tw-gradient-to:rgb(255 229 217 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), rgb(255 229 217 / 0.7) var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-macaron-lemon{--tw-gradient-to:#FEF3C7 var(--tw-gradient-to-position)}.to-macaron-lilac{--tw-gradient-to:#C8B6FF var(--tw-gradient-to-position)}.to-macaron-mint{--tw-gradient-to:#D8F3DC var(--tw-gradient-to-position)}.to-macaron-mint\/70{--tw-gradient-to:rgb(216 243 220 / 0.7) var(--tw-gradient-to-position)}.to-macaron-pink{--tw-gradient-to:#FFD6DF var(--tw-gradient-to-position)}.object-contain{object-fit:contain}.p-1{padding:0.25rem}.p-12{padding:3rem}.p-2\.5{padding:0.625rem}.p-3{padding:0.75rem}.p-3\.5{padding:0.875rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.px-1{padding-left:0.25rem;padding-right:0.25rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-2\.5{padding-left:0.625rem;padding-right:0.625rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-3\.5{padding-left:0.875rem;padding-right:0.875rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-0\.5{padding-top:0.125rem;padding-bottom:0.125rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-3\.5{padding-top:0.875rem;padding-bottom:0.875rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.pb-2{padding-bottom:0.5rem}.pb-3{padding-bottom:0.75rem}.pb-4{padding-bottom:1rem}.pt-1{padding-top:0.25rem}.pt-2{padding-top:0.5rem}.pt-3{padding-top:0.75rem}.pt-4{padding-top:1rem}.text-left{text-align:left}.text-center{text-align:center}.font-fun{font-family:Fredoka, "Noto Sans TC", sans-serif}.font-sans{font-family:"Noto Sans TC", Nunito, sans-serif}.font-serif{font-family:ui-serif, Georgia, Cambria, "Times New Roman", Times, serif}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.tracking-tight{letter-spacing:-0.025em}.tracking-wide{letter-spacing:0.025em}.text-amber-500{--tw-text-opacity:1;color:rgb(245 158 11 / var(--tw-text-opacity, 1))}.text-amber-600{--tw-text-opacity:1;color:rgb(217 119 6 / var(--tw-text-opacity, 1))}.text-amber-700{--tw-text-opacity:1;color:rgb(180 83 9 / var(--tw-text-opacity, 1))}.text-amber-800{--tw-text-opacity:1;color:rgb(146 64 14 / var(--tw-text-opacity, 1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-blue-700{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.text-emerald-500{--tw-text-opacity:1;color:rgb(16 185 129 / var(--tw-text-opacity, 1))}.text-emerald-700{--tw-text-opacity:1;color:rgb(4 120 87 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-macaron-textDark{--tw-text-opacity:1;color:rgb(74 64 99 / var(--tw-text-opacity, 1))}.text-orange-600{--tw-text-opacity:1;color:rgb(234 88 12 / var(--tw-text-opacity, 1))}.text-pink-700{--tw-text-opacity:1;color:rgb(190 24 93 / var(--tw-text-opacity, 1))}.text-purple-500{--tw-text-opacity:1;color:rgb(168 85 247 / var(--tw-text-opacity, 1))}.text-purple-600{--tw-text-opacity:1;color:rgb(147 51 234 / var(--tw-text-opacity, 1))}.text-purple-700{--tw-text-opacity:1;color:rgb(126 34 206 / var(--tw-text-opacity, 1))}.text-purple-800{--tw-text-opacity:1;color:rgb(107 33 168 / var(--tw-text-opacity, 1))}.text-purple-900{--tw-text-opacity:1;color:rgb(88 28 135 / var(--tw-text-opacity, 1))}.text-rose-400{--tw-text-opacity:1;color:rgb(251 113 133 / var(--tw-text-opacity, 1))}.text-rose-500{--tw-text-opacity:1;color:rgb(244 63 94 / var(--tw-text-opacity, 1))}.text-rose-600{--tw-text-opacity:1;color:rgb(225 29 72 / var(--tw-text-opacity, 1))}.text-rose-700{--tw-text-opacity:1;color:rgb(190 18 60 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-0{opacity:0}.shadow-pastel{--tw-shadow:0 8px 25px -5px rgba(226, 212, 240, 0.6), 0 8px 10px -6px rgba(255, 170, 166, 0.2);--tw-shadow-colored:0 8px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-pastel-sm{--tw-shadow:0 4px 15px -2px rgba(200, 182, 255, 0.4);--tw-shadow-colored:0 4px 15px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-200{transition-duration:200ms}.duration-300{transition-duration:300ms}.hover\:bg-amber-200:hover{--tw-bg-opacity:1;background-color:rgb(253 230 138 / var(--tw-bg-opacity, 1))}.hover\:bg-black\/80:hover{background-color:rgb(0 0 0 / 0.8)}.hover\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-200:hover{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity, 1))}.hover\:bg-macaron-lilac:hover{--tw-bg-opacity:1;background-color:rgb(200 182 255 / var(--tw-bg-opacity, 1))}.hover\:bg-purple-100:hover{--tw-bg-opacity:1;background-color:rgb(243 232 255 / var(--tw-bg-opacity, 1))}.hover\:bg-purple-50:hover{--tw-bg-opacity:1;background-color:rgb(250 245 255 / var(--tw-bg-opacity, 1))}.hover\:bg-purple-50\/50:hover{background-color:rgb(250 245 255 / 0.5)}.hover\:text-gray-600:hover{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.hover\:text-purple-800:hover{--tw-text-opacity:1;color:rgb(107 33 168 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:opacity-95:hover{opacity:0.95}.focus\:border-transparent:focus{border-color:transparent}.focus\:bg-white:focus{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-macaron-rose\/70:focus{--tw-ring-color:rgb(255 170 166 / 0.7)}.focus\:ring-purple-200:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(233 213 255 / var(--tw-ring-opacity, 1))}.focus\:ring-purple-300:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(216 180 254 / var(--tw-ring-opacity, 1))}.active\:scale-95:active{--tw-scale-x:.95;--tw-scale-y:.95;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.active\:scale-\[0\.99\]:active{--tw-scale-x:0.99;--tw-scale-y:0.99;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@media (min-width: 640px){.sm\:block{display:block}.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.sm\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.sm\:flex-row{flex-direction:row}.sm\:items-center{align-items:center}.sm\:p-5{padding:1.25rem}.sm\:p-6{padding:1.5rem}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:text-2xl{font-size:1.5rem;line-height:2rem}.sm\:text-sm{font-size:0.875rem;line-height:1.25rem}.sm\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media (min-width: 768px){.md\:flex-row{flex-direction:row}.md\:items-center{align-items:center}}@media (min-width: 1024px){.lg\:col-span-5{grid-column:span 5 / span 5}.lg\:col-span-7{grid-column:span 7 / span 7}.lg\:grid-cols-12{grid-template-columns:repeat(12, minmax(0, 1fr))}}</style></head>
+<body class="font-sans antialiased custom-scrollbar">
+<header class="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-macaron-pink/60 px-4 py-3 sm:px-6">
+<div class="max-w-6xl mx-auto flex items-center justify-between">
+<div class="flex items-center space-x-3">
+<div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-macaron-rose to-macaron-lilac flex items-center justify-center text-white text-xl shadow-pastel-sm">
+<i class="fa-solid fa-graduation-cap"></i>
+</div>
+<div>
+<h1 class="text-lg sm:text-xl font-bold font-fun tracking-wide text-macaron-textDark flex items-center gap-2">
+            學測英文作文智慧批改
+            <span class="text-xs px-2.5 py-0.5 rounded-full bg-macaron-pink text-pink-700 font-medium">大考20分制</span>
+</h1>
+<p class="text-xs text-purple-700 font-medium hidden sm:block">專為高三考生打造的溫和良師益友・全方位作文診斷</p>
+</div>
+</div>
+<!-- API Key & Action Buttons -->
+<div class="flex items-center space-x-2">
+<button class="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-macaron-lavender text-purple-800 text-xs sm:text-sm font-semibold hover:bg-macaron-lilac hover:text-white transition shadow-sm" id="openApiKeyBtn">
+<i class="fa-solid fa-key text-xs"></i>
+<span id="apiKeyStatusText">設定 API Key</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Floating Toast Message Box (No alert() used) -->
+<div class="fixed top-5 right-5 z-50 transform translate-y-[-150%] opacity-0 transition-all duration-300 pointer-events-none max-w-sm w-full" id="toastBox">
+<div class="bg-white border-2 border-macaron-rose rounded-2xl p-4 shadow-pastel flex items-center space-x-3" id="toastInner">
+<div class="w-8 h-8 rounded-xl bg-macaron-pink flex items-center justify-center text-rose-500 font-bold" id="toastIcon">
+<i class="fa-solid fa-bell"></i>
+</div>
+<div class="flex-1 text-sm font-medium text-macaron-textDark" id="toastMessage">訊息通知</div>
+</div>
+</div>
+<!-- API Key Setting Modal -->
+<div class="fixed inset-0 bg-black/30 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden" id="apiKeyModal">
+<div class="bg-white rounded-3xl p-6 max-w-md w-full border-2 border-macaron-lavender shadow-pastel animate-in fade-in zoom-in-95 duration-200">
+<div class="flex items-center justify-between pb-3 border-b border-purple-100">
+<div class="flex items-center space-x-2">
+<div class="w-8 h-8 rounded-xl bg-macaron-lemon flex items-center justify-center text-amber-600">
+<i class="fa-solid fa-shield-heart"></i>
+</div>
+<h3 class="font-bold text-macaron-textDark">Gemini API Key 設定</h3>
+</div>
+<button class="text-gray-400 hover:text-gray-600 text-lg" id="closeApiKeyBtn">
+<i class="fa-solid fa-xmark"></i>
+</button>
+</div>
+<div class="py-4 space-y-3">
+<p class="text-xs text-gray-600 leading-relaxed">
+          本系統使用 Google 最新 <strong>Gemini 3 Flash</strong> 模型進行精闢圖像文字辨識（OCR）與多維度作文批改。您的金鑰僅儲存於您個人的瀏覽器端（LocalStorage），不會上傳儲存。
+        </p>
+<div class="relative">
+<input class="w-full px-4 py-2.5 rounded-xl border border-purple-200 focus:outline-none focus:ring-2 focus:ring-purple-300 text-sm" id="apiKeyInput" placeholder="請在此貼上 AI Studio 取得的 API Key" type="password"/>
+<button class="absolute right-3 top-2.5 text-gray-400 hover:text-gray-600" id="toggleKeyVisibility" type="button">
+<i class="fa-regular fa-eye"></i>
+</button>
+</div>
+<div class="flex justify-between items-center text-xs text-purple-600">
+<a class="underline hover:text-purple-800" href="https://aistudio.google.com/app/apikey" target="_blank">
+<i class="fa-solid fa-arrow-up-right-from-square mr-1"></i>免費取得 Gemini API Key
+          </a>
+</div>
+</div>
+<div class="flex justify-end space-x-2 pt-2">
+<button class="px-3 py-2 rounded-xl text-xs font-semibold text-gray-500 hover:bg-gray-100 transition" id="clearApiKeyBtn">清除</button>
+<button class="px-5 py-2 rounded-xl bg-gradient-to-r from-macaron-rose to-macaron-lilac text-white text-xs font-bold shadow-pastel-sm hover:opacity-95 transition" id="saveApiKeyBtn">儲存設定</button>
+</div>
+</div>
+</div>
+<main class="max-w-6xl mx-auto px-4 py-6 sm:px-6">
+<!-- Top Banner Card -->
+<div class="bg-gradient-to-r from-macaron-pink/70 via-macaron-peach/70 to-macaron-mint/70 rounded-3xl p-5 sm:p-6 mb-6 shadow-sm border border-white/60 relative overflow-hidden">
+<div class="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+<div>
+<span class="inline-block px-3 py-1 rounded-full bg-white/80 text-xs font-bold text-rose-600 mb-2">
+            🌸 考前衝刺・寫作急救站
+          </span>
+<h2 class="text-xl sm:text-2xl font-bold font-fun text-macaron-textDark tracking-tight">
+            高三學測英文作文專業診斷室
+          </h2>
+<p class="text-sm text-gray-700 mt-1 max-w-2xl leading-relaxed">
+            採用大考中心四項評分指標（內容、組織、文法句構、字彙拼字各5分），溫和指出盲點，並提供 B1 基礎紮實版與 B2 頂標金句版的雙軌進階示範。
+          </p>
+</div>
+<!-- Sample Load Button -->
+<button class="shrink-0 px-4 py-2 rounded-2xl bg-white text-purple-700 hover:bg-purple-50 text-xs sm:text-sm font-bold border border-purple-200 shadow-sm flex items-center gap-2 transition active:scale-95" id="loadSampleBtn">
+<i class="fa-solid fa-wand-magic-sparkles text-amber-500"></i>
+          載入學測範例題目
+        </button>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+<!-- Left Input Panel (5 Cols) -->
+<div class="lg:col-span-5 space-y-5">
+<div class="bg-white rounded-3xl p-5 sm:p-6 shadow-pastel border border-macaron-pink/40">
+<div class="flex items-center justify-between mb-4 pb-2 border-b border-pink-50">
+<h3 class="font-bold text-macaron-textDark flex items-center gap-2">
+<i class="fa-solid fa-pen-nib text-rose-400"></i>
+              輸入或上傳作文
+            </h3>
+<span class="text-xs bg-macaron-lemon text-amber-800 px-2.5 py-0.5 rounded-full font-medium">支援手寫照辨識</span>
+</div>
+<!-- Essay Prompt / Topic (Optional) -->
+<div class="mb-4">
+<label class="block text-xs font-semibold text-gray-600 mb-1">
+              作文題目 / 提示情境 (選填，有助於評估內容與扣題度)
+            </label>
+<input class="w-full px-3.5 py-2 rounded-xl text-xs bg-gray-50/70 border border-purple-100 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-200" id="topicInput" placeholder="例：排隊現象對社會的影響 / 一次難忘的合作經歷" type="text"/>
+</div>
+<!-- Mode Switching Tabs: Text vs Image Upload -->
+<div class="flex p-1 bg-gray-100/80 rounded-2xl mb-4 text-xs font-bold text-gray-500">
+<button class="flex-1 py-2 rounded-xl tab-active flex items-center justify-center gap-1.5 transition" id="tabModeText">
+<i class="fa-solid fa-keyboard"></i>
+              直接輸入文字
+            </button>
+<button class="flex-1 py-2 rounded-xl flex items-center justify-center gap-1.5 transition" id="tabModePhoto">
+<i class="fa-solid fa-camera"></i>
+              上傳手寫照片 (OCR)
+            </button>
+</div>
+<!-- Input Area 1: Textarea -->
+<div class="space-y-2" id="textInputContainer">
+<div class="relative">
+<textarea class="w-full p-4 rounded-2xl border border-purple-100 text-sm leading-relaxed text-gray-700 focus:outline-none focus:ring-2 focus:ring-macaron-rose/70 focus:border-transparent custom-scrollbar resize-y" id="essayTextInput" placeholder="請在此貼上或鍵入你的英文作文... (建議 120-180 字以上以達到學測標準)" rows="11"></textarea>
+</div>
+<!-- Word Count Indicator -->
+<div class="flex items-center justify-between text-xs px-1 text-gray-500">
+<span>建議長度：120 ~ 180 字</span>
+<span class="font-bold px-2.5 py-0.5 rounded-full bg-rose-100 text-rose-700" id="wordCountBadge">0 字</span>
+</div>
+</div>
+<!-- Input Area 2: Photo Upload & Preview -->
+<div class="space-y-3 hidden" id="photoInputContainer">
+<div class="border-2 border-dashed border-purple-200 rounded-2xl p-6 text-center hover:bg-purple-50/50 transition cursor-pointer bg-purple-50/20" id="dropZone">
+<input accept="image/*" class="hidden" id="fileInput" type="file"/>
+<div class="w-12 h-12 rounded-2xl bg-macaron-lavender text-purple-600 flex items-center justify-center mx-auto mb-2 text-xl">
+<i class="fa-solid fa-cloud-arrow-up"></i>
+</div>
+<p class="text-xs font-bold text-macaron-textDark">點擊或拖放作文手寫照片</p>
+<p class="text-[11px] text-gray-400 mt-1">支援清晰的 JPG, PNG 圖片，字跡工整辨識度更佳</p>
+</div>
+<!-- Image Preview Box -->
+<div class="relative rounded-2xl overflow-hidden border border-purple-100 bg-gray-50 hidden" id="previewCard">
+<img alt="作文預覽" class="w-full max-h-48 object-contain" id="imagePreview" src=""/>
+<button class="absolute top-2 right-2 w-7 h-7 rounded-full bg-black/60 text-white flex items-center justify-center text-xs hover:bg-black/80 transition" id="removeImageBtn">
+<i class="fa-solid fa-trash-can"></i>
+</button>
+</div>
+</div>
+<!-- Action Button -->
+<div class="pt-4">
+<button class="w-full py-3.5 px-6 rounded-2xl bg-gradient-to-r from-macaron-rose via-macaron-lilac to-macaron-mint text-white font-fun font-bold text-base shadow-pastel hover:opacity-95 active:scale-[0.99] transition flex items-center justify-center space-x-2" id="startGradingBtn">
+<i class="fa-solid fa-wand-magic-sparkles"></i>
+<span>開始學測深度批改與精修</span>
+</button>
+</div>
+</div>
+<!-- Rubric Card for Quick Reference -->
+<div class="bg-white/80 rounded-3xl p-4 sm:p-5 border border-macaron-peach/60 shadow-sm text-xs space-y-2">
+<div class="font-bold text-macaron-textDark flex items-center gap-1.5 text-sm">
+<i class="fa-solid fa-bookmark text-amber-500"></i>
+            大考中心評分重點速覽 (總分20分)
+          </div>
+<div class="grid grid-cols-2 gap-2 text-[11px]">
+<div class="bg-rose-50/70 p-2.5 rounded-xl border border-rose-100">
+<strong class="text-rose-700 block">1. 內容 (5分)</strong>
+              主題切合、論點具體支撐、避免陳述空泛。
+            </div>
+<div class="bg-purple-50/70 p-2.5 rounded-xl border border-purple-100">
+<strong class="text-purple-700 block">2. 組織 (5分)</strong>
+              起承轉合完整、段落轉折詞流暢自然。
+            </div>
+<div class="bg-blue-50/70 p-2.5 rounded-xl border border-blue-100">
+<strong class="text-blue-700 block">3. 文法句構 (5分)</strong>
+              時態一致、主從子句與分詞構句多樣性。
+            </div>
+<div class="bg-emerald-50/70 p-2.5 rounded-xl border border-emerald-100">
+<strong class="text-emerald-700 block">4. 字彙拼字 (5分)</strong>
+              用字精準無誤、避免過度重複國中單字。
+            </div>
+</div>
+<p class="text-[10px] text-gray-500 pt-1">
+            * 字數不足 120 字或離題，大考中心將依規定酌予扣總分 1-2 分。
+          </p>
+</div>
+</div>
+<!-- Right Output Panel (7 Cols) -->
+<div class="lg:col-span-7">
+<!-- Loading State Placeholder -->
+<div class="bg-white rounded-3xl p-12 shadow-pastel border border-macaron-pink/40 text-center hidden" id="loadingBox">
+<div class="inline-flex p-4 rounded-3xl bg-macaron-pink/40 text-rose-500 text-3xl mb-4 animate-bounce">
+<i class="fa-solid fa-feather-pointed"></i>
+</div>
+<h3 class="text-lg font-bold font-fun text-macaron-textDark mb-2">老師正在細心批改你的文章中...</h3>
+<p class="text-xs text-gray-500 max-w-sm mx-auto leading-relaxed" id="loadingTip">
+            正在分析文法結構、詞彙層次與學測四大維度評分，請稍候片刻...
+          </p>
+<div class="w-48 h-2 bg-gray-100 rounded-full mx-auto mt-6 overflow-hidden">
+<div class="h-full bg-gradient-to-r from-macaron-rose via-macaron-lilac to-macaron-mint animate-pulse rounded-full w-3/4"></div>
+</div>
+</div>
+<!-- Initial Blank State Placeholder -->
+<div class="bg-white/70 rounded-3xl p-12 shadow-sm border border-purple-100/80 text-center flex flex-col items-center justify-center min-h-[480px]" id="blankBox">
+<div class="w-20 h-20 rounded-3xl bg-gradient-to-br from-macaron-pink via-macaron-peach to-macaron-lemon flex items-center justify-center text-3xl text-purple-600 shadow-sm mb-4">
+<i class="fa-solid fa-book-open-reader"></i>
+</div>
+<h3 class="text-base font-bold font-fun text-macaron-textDark mb-1">尚未開始批改</h3>
+<p class="text-xs text-gray-500 max-w-xs leading-relaxed">
+            請在左側輸入英文作文文字，或直接拍攝上傳手寫稿照片，老師將為您逐字分析並提供拿高分技巧！
+          </p>
+<button class="mt-4 px-4 py-2 rounded-xl bg-macaron-lavender text-purple-800 text-xs font-bold hover:bg-macaron-lilac hover:text-white transition" id="quickTryBtn">
+            點此快速試用範例
+          </button>
+</div>
+<!-- Result Container (Visible after analysis) -->
+<div class="space-y-6 hidden" id="resultContainer">
+<!-- Score Summary Card -->
+<div class="bg-white rounded-3xl p-6 shadow-pastel border-2 border-macaron-mint">
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-4 border-b border-gray-100">
+<div>
+<span class="text-xs font-bold text-emerald-700 bg-macaron-mint px-3 py-1 rounded-full">
+                  學測成績評定報告
+                </span>
+<h3 class="text-xl font-bold font-fun text-macaron-textDark mt-1">總分落點分析</h3>
+</div>
+<!-- Big Total Score Badge -->
+<div class="flex items-baseline gap-1 bg-gradient-to-br from-macaron-peach to-macaron-pink px-5 py-2.5 rounded-2xl shadow-sm">
+<span class="text-3xl font-extrabold text-rose-600 font-fun" id="scoreTotal">0</span>
+<span class="text-sm font-bold text-gray-600">/ 20 分</span>
+</div>
+</div>
+<!-- Breakdown: 4 Criteria -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-4">
+<!-- Content -->
+<div class="bg-rose-50/80 rounded-2xl p-3 border border-rose-100 text-center">
+<div class="text-[11px] font-semibold text-rose-700">內容 (5分)</div>
+<div class="text-lg font-bold text-rose-600 my-0.5" id="scoreContent">0</div>
+<div class="text-[10px] text-gray-500" id="commentContent">切題度與具體論述</div>
+</div>
+<!-- Organization -->
+<div class="bg-purple-50/80 rounded-2xl p-3 border border-purple-100 text-center">
+<div class="text-[11px] font-semibold text-purple-700">組織 (5分)</div>
+<div class="text-lg font-bold text-purple-600 my-0.5" id="scoreOrg">0</div>
+<div class="text-[10px] text-gray-500" id="commentOrg">架構與轉折流暢</div>
+</div>
+<!-- Grammar -->
+<div class="bg-blue-50/80 rounded-2xl p-3 border border-blue-100 text-center">
+<div class="text-[11px] font-semibold text-blue-700">文法句構 (5分)</div>
+<div class="text-lg font-bold text-blue-600 my-0.5" id="scoreGrammar">0</div>
+<div class="text-[10px] text-gray-500" id="commentGrammar">語法正確與句型多樣</div>
+</div>
+<!-- Vocab -->
+<div class="bg-amber-50/80 rounded-2xl p-3 border border-amber-100 text-center">
+<div class="text-[11px] font-semibold text-amber-800">字彙拼字 (5分)</div>
+<div class="text-lg font-bold text-amber-700 my-0.5" id="scoreVocab">0</div>
+<div class="text-[10px] text-gray-500" id="commentVocab">用字精準度</div>
+</div>
+</div>
+<!-- Word count & Teacher's Warm Encouragement -->
+<div class="mt-4 pt-3 border-t border-gray-100 space-y-2">
+<div class="flex items-center gap-2 text-xs text-gray-600">
+<i class="fa-solid fa-chart-simple text-purple-500"></i>
+<span>辨識總字數：<strong class="text-purple-700" id="evaluatedWordCount">0</strong> 字</span>
+<span class="text-rose-500 text-[11px] font-semibold hidden" id="penaltyNote">(字數不足酌扣 1 分)</span>
+</div>
+<div class="p-3.5 rounded-2xl bg-purple-50/70 border border-purple-100 text-xs text-purple-900 leading-relaxed" id="teacherEncouragement">
+<!-- Teacher's encouraging commentary inserted here -->
+</div>
+</div>
+</div>
+<!-- Section 1: Grammar Error Explanations -->
+<div class="bg-white rounded-3xl p-6 shadow-pastel border border-macaron-rose/40">
+<h4 class="font-bold text-macaron-textDark text-base flex items-center gap-2 mb-3">
+<span class="w-6 h-6 rounded-full bg-macaron-pink text-rose-600 flex items-center justify-center text-xs font-bold">1</span>
+              文法錯誤修正與觀念解釋
+            </h4>
+<p class="text-xs text-gray-500 mb-4">清楚指出文章中的錯誤時態、單複數、主謂一致或語意不清之處：</p>
+<div class="space-y-3" id="grammarErrorsList">
+<!-- Dynamically rendered grammar cards -->
+</div>
+</div>
+<!-- Section 2: 3-Column Sentence Comparison Table -->
+<div class="bg-white rounded-3xl p-6 shadow-pastel border border-macaron-lilac/40">
+<h4 class="font-bold text-macaron-textDark text-base flex items-center gap-2 mb-3">
+<span class="w-6 h-6 rounded-full bg-macaron-lavender text-purple-700 flex items-center justify-center text-xs font-bold">2</span>
+              三欄精準對照診斷表
+            </h4>
+<p class="text-xs text-gray-500 mb-4">直觀對照你的句子與優化後的建議，深度理解修改理由：</p>
+<div class="overflow-x-auto rounded-2xl border border-purple-100 custom-scrollbar">
+<table class="w-full text-left text-xs border-collapse">
+<thead>
+<tr class="bg-purple-50/90 text-purple-900 font-bold border-b border-purple-100">
+<th class="p-3.5 w-1/3">你的句子 (Original)</th>
+<th class="p-3.5 w-1/3">修改建議 (Better Alternative)</th>
+<th class="p-3.5 w-1/3">解釋理由 (Reason)</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-purple-50 text-gray-700" id="comparisonTableBody">
+<!-- Dynamically rendered rows -->
+</tbody>
+</table>
+</div>
+</div>
+<!-- Section 3: Full Modified Polished Article -->
+<div class="bg-white rounded-3xl p-6 shadow-pastel border border-macaron-pistachio/50">
+<div class="flex items-center justify-between mb-3">
+<h4 class="font-bold text-macaron-textDark text-base flex items-center gap-2">
+<span class="w-6 h-6 rounded-full bg-macaron-mint text-emerald-700 flex items-center justify-center text-xs font-bold">3</span>
+                完整潤飾後的文章 (雙星號標註修改處)
+              </h4>
+<button class="text-xs px-3 py-1.5 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 transition flex items-center gap-1 font-semibold" id="copyPolishedBtn">
+<i class="fa-regular fa-copy"></i> 複製全文
+              </button>
+</div>
+<p class="text-xs text-gray-500 mb-3">修改處以粗體顯著標示，方便快速體會更自然精確的地道表達：</p>
+<div class="p-4 rounded-2xl bg-emerald-50/40 border border-emerald-100 text-sm leading-relaxed text-gray-800 font-serif" id="polishedArticleText">
+<!-- Rendered polished article with <strong> tags -->
+</div>
+</div>
+<!-- Section 4 & 5: B1 (Solid Foundation) vs B2 (Top-Score Advanced) -->
+<div class="bg-white rounded-3xl p-6 shadow-pastel border border-macaron-peach/60">
+<h4 class="font-bold text-macaron-textDark text-base flex items-center gap-2 mb-2">
+<span class="w-6 h-6 rounded-full bg-macaron-peach text-orange-600 flex items-center justify-center text-xs font-bold">★</span>
+              雙軌升級範文：B1 紮實篇 vs B2 頂標篇
+            </h4>
+<p class="text-xs text-gray-500 mb-4">
+              根據你的原文構想，提供兩種不同程度的升級版本。可先掌握 B1 基本句型，再邁向 B2 高分句法！
+            </p>
+<!-- Toggle Tabs -->
+<div class="flex p-1 bg-gray-100 rounded-2xl mb-4 text-xs font-bold">
+<button class="flex-1 py-2.5 rounded-xl tab-active transition flex items-center justify-center gap-1 text-purple-700" id="tabB1Btn">
+<i class="fa-solid fa-seedling text-emerald-500"></i>
+                B1 穩扎穩打版 (語意清晰・少錯穩拿均標前標)
+              </button>
+<button class="flex-1 py-2.5 rounded-xl transition flex items-center justify-center gap-1 text-gray-600" id="tabB2Btn">
+<i class="fa-solid fa-crown text-amber-500"></i>
+                B2 頂標金句版 (高階句構・轉折生動衝刺頂標)
+              </button>
+</div>
+<!-- Content for B1 -->
+<div class="space-y-3" id="contentB1">
+<div class="p-4 rounded-2xl bg-blue-50/50 border border-blue-100 text-sm leading-relaxed text-gray-800 font-serif" id="b1ArticleText">
+<!-- B1 Article -->
+</div>
+<div class="flex justify-end">
+<button class="text-xs px-3 py-1.5 rounded-xl bg-purple-50 text-purple-700 hover:bg-purple-100 font-semibold transition flex items-center gap-1" id="copyB1Btn">
+<i class="fa-regular fa-copy"></i> 複製 B1 範文
+                </button>
+</div>
+</div>
+<!-- Content for B2 -->
+<div class="space-y-3 hidden" id="contentB2">
+<div class="p-4 rounded-2xl bg-amber-50/50 border border-amber-100 text-sm leading-relaxed text-gray-800 font-serif" id="b2ArticleText">
+<!-- B2 Article -->
+</div>
+<div class="flex justify-end">
+<button class="text-xs px-3 py-1.5 rounded-xl bg-amber-100 text-amber-800 hover:bg-amber-200 font-semibold transition flex items-center gap-1" id="copyB2Btn">
+<i class="fa-regular fa-copy"></i> 複製 B2 範文
+                </button>
+</div>
+</div>
+</div>
+<!-- Section 6: High-frequency Vocabulary and Transition Cards -->
+<div class="bg-white rounded-3xl p-6 shadow-pastel border border-macaron-lemon/70">
+<h4 class="font-bold text-macaron-textDark text-base flex items-center gap-2 mb-3">
+<span class="w-6 h-6 rounded-full bg-macaron-lemon text-amber-700 flex items-center justify-center text-xs font-bold">4</span>
+              高分學習重點與核心字彙卡片
+            </h4>
+<p class="text-xs text-gray-500 mb-4">學測高頻提分單字與常用轉折語，背起來直接在下篇作文運用：</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3" id="vocabCardsGrid">
+<!-- Dynamically generated vocab cards -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer with requested designer name -->
+<footer class="mt-16 py-6 border-t border-purple-100 bg-white/70 backdrop-blur-sm text-center">
+<div class="max-w-6xl mx-auto px-4 flex flex-col items-center justify-center space-y-1">
+<div class="flex items-center space-x-2 text-xs text-gray-600 font-medium">
+<span>✨ 陪伴每位學子寫出自信好文章</span>
+<span>•</span>
+<span class="text-purple-700 font-bold">學測英文寫作專用輔助診斷</span>
+</div>
+<p class="text-sm font-bold text-macaron-textDark pt-1 font-fun">
+        設計者為陽明高中 魏山姆
+      </p>
+<p class="text-[11px] text-gray-400">
+        Designed by Sam Wei, Taoyuan Municipal Yang Ming Senior High School
+      </p>
+</div>
+</footer>
+<script>
+    // State management
+    const state = {
+      apiKey: localStorage.getItem('gemini_api_key') || '',
+      hasServerKey: false,
+      currentMode: 'text', // 'text' | 'photo'
+      selectedImageBase64: null,
+      selectedImageMimeType: 'image/jpeg',
+      isAnalyzing: false,
+      lastResult: null
+    };
+
+    // DOM Elements
+    const elements = {
+      apiKeyModal: document.getElementById('apiKeyModal'),
+      openApiKeyBtn: document.getElementById('openApiKeyBtn'),
+      closeApiKeyBtn: document.getElementById('closeApiKeyBtn'),
+      saveApiKeyBtn: document.getElementById('saveApiKeyBtn'),
+      clearApiKeyBtn: document.getElementById('clearApiKeyBtn'),
+      apiKeyInput: document.getElementById('apiKeyInput'),
+      apiKeyStatusText: document.getElementById('apiKeyStatusText'),
+      toggleKeyVisibility: document.getElementById('toggleKeyVisibility'),
+      
+      tabModeText: document.getElementById('tabModeText'),
+      tabModePhoto: document.getElementById('tabModePhoto'),
+      textInputContainer: document.getElementById('textInputContainer'),
+      photoInputContainer: document.getElementById('photoInputContainer'),
+      
+      topicInput: document.getElementById('topicInput'),
+      essayTextInput: document.getElementById('essayTextInput'),
+      wordCountBadge: document.getElementById('wordCountBadge'),
+      
+      dropZone: document.getElementById('dropZone'),
+      fileInput: document.getElementById('fileInput'),
+      previewCard: document.getElementById('previewCard'),
+      imagePreview: document.getElementById('imagePreview'),
+      removeImageBtn: document.getElementById('removeImageBtn'),
+      
+      startGradingBtn: document.getElementById('startGradingBtn'),
+      loadSampleBtn: document.getElementById('loadSampleBtn'),
+      quickTryBtn: document.getElementById('quickTryBtn'),
+      
+      loadingBox: document.getElementById('loadingBox'),
+      blankBox: document.getElementById('blankBox'),
+      resultContainer: document.getElementById('resultContainer'),
+      
+      toastBox: document.getElementById('toastBox'),
+      toastMessage: document.getElementById('toastMessage'),
+
+      // Score displays
+      scoreTotal: document.getElementById('scoreTotal'),
+      scoreContent: document.getElementById('scoreContent'),
+      scoreOrg: document.getElementById('scoreOrg'),
+      scoreGrammar: document.getElementById('scoreGrammar'),
+      scoreVocab: document.getElementById('scoreVocab'),
+      commentContent: document.getElementById('commentContent'),
+      commentOrg: document.getElementById('commentOrg'),
+      commentGrammar: document.getElementById('commentGrammar'),
+      commentVocab: document.getElementById('commentVocab'),
+      evaluatedWordCount: document.getElementById('evaluatedWordCount'),
+      penaltyNote: document.getElementById('penaltyNote'),
+      teacherEncouragement: document.getElementById('teacherEncouragement'),
+
+      // Sections
+      grammarErrorsList: document.getElementById('grammarErrorsList'),
+      comparisonTableBody: document.getElementById('comparisonTableBody'),
+      polishedArticleText: document.getElementById('polishedArticleText'),
+      b1ArticleText: document.getElementById('b1ArticleText'),
+      b2ArticleText: document.getElementById('b2ArticleText'),
+      vocabCardsGrid: document.getElementById('vocabCardsGrid'),
+
+      tabB1Btn: document.getElementById('tabB1Btn'),
+      tabB2Btn: document.getElementById('tabB2Btn'),
+      contentB1: document.getElementById('contentB1'),
+      contentB2: document.getElementById('contentB2'),
+
+      copyPolishedBtn: document.getElementById('copyPolishedBtn'),
+      copyB1Btn: document.getElementById('copyB1Btn'),
+      copyB2Btn: document.getElementById('copyB2Btn')
+    };
+
+    // Sample High School Essay for Instant Test
+    const sampleEssay = {
+      topic: "面對挫折與失敗的經驗 (Overcoming a Failure)",
+      text: "Everyone has failure in their life. Last year, I took part in a speech contest. I was very nervous because there was many people looking at me. When I stand on the stage, my mind went blank and I forget my sentences. I felt very embarrassing and want to run away. After this competition, I was sad and cried for several days. However, my teacher encourage me and said failure is the mother of success. She helped me practice my pronunciation and gave me confidence. Finally, this year I participate again and win the third prize. Through this experience, I learned that never give up when we face difficult."
+    };
+
+    // Custom Toast Notification (No alert() used!)
+    function showToast(message, isError = false) {
+      elements.toastMessage.textContent = message;
+      const inner = document.getElementById('toastInner');
+      const icon = document.getElementById('toastIcon');
+      
+      if (isError) {
+        inner.className = 'bg-white border-2 border-red-300 rounded-2xl p-4 shadow-pastel flex items-center space-x-3';
+        icon.className = 'w-8 h-8 rounded-xl bg-red-100 flex items-center justify-center text-red-500 font-bold';
+        icon.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i>';
+      } else {
+        inner.className = 'bg-white border-2 border-macaron-rose rounded-2xl p-4 shadow-pastel flex items-center space-x-3';
+        icon.className = 'w-8 h-8 rounded-xl bg-macaron-pink flex items-center justify-center text-rose-500 font-bold';
+        icon.innerHTML = '<i class="fa-solid fa-check"></i>';
+      }
+
+      elements.toastBox.classList.remove('translate-y-[-150%]', 'opacity-0');
+      elements.toastBox.classList.add('translate-y-0', 'opacity-100');
+
+      setTimeout(() => {
+        elements.toastBox.classList.add('translate-y-[-150%]', 'opacity-0');
+        elements.toastBox.classList.remove('translate-y-0', 'opacity-100');
+      }, 3500);
+    }
+
+    // Update API Key UI Status
+    function updateKeyStatus() {
+      if (state.hasServerKey) {
+        elements.apiKeyStatusText.textContent = '老師已就緒金鑰 (免輸入)';
+        elements.openApiKeyBtn.className = 'flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-macaron-mint text-emerald-800 text-xs sm:text-sm font-semibold hover:bg-emerald-200 transition shadow-sm';
+      } else if (state.apiKey && state.apiKey.trim().length > 5) {
+        elements.apiKeyStatusText.textContent = '個人金鑰已就緒';
+        elements.openApiKeyBtn.className = 'flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-macaron-mint text-emerald-800 text-xs sm:text-sm font-semibold hover:bg-emerald-200 transition shadow-sm';
+      } else {
+        elements.apiKeyStatusText.textContent = '設定 API Key';
+        elements.openApiKeyBtn.className = 'flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-macaron-lavender text-purple-800 text-xs sm:text-sm font-semibold hover:bg-macaron-lilac hover:text-white transition shadow-sm';
+      }
+    }
+
+    // 檢查是否處於 GAS 環境並詢問伺服器金鑰狀態
+    function checkBackendStatus() {
+      if (typeof google !== 'undefined' && google.script && google.script.run) {
+        google.script.run
+          .withSuccessHandler((res) => {
+            state.hasServerKey = Boolean(res && res.hasServerKey);
+            updateKeyStatus();
+          })
+          .withFailureHandler((err) => {
+            console.warn('檢查伺服器金鑰狀態失敗或尚未授權:', err);
+            state.hasServerKey = false;
+            updateKeyStatus();
+          })
+          .checkServerKeyStatus();
+      } else {
+        // 本機預覽或一般瀏覽器模式
+        state.hasServerKey = false;
+        updateKeyStatus();
+      }
+    }
+
+    // Word Count Calculation
+    function calculateWordCount(text) {
+      if (!text || !text.trim()) return 0;
+      const words = text.trim().match(/\b[A-Za-z0-9'-]+\b/g);
+      return words ? words.length : 0;
+    }
+
+    function updateWordCountDisplay() {
+      const count = calculateWordCount(elements.essayTextInput.value);
+      elements.wordCountBadge.textContent = `${count} 字`;
+      if (count < 120) {
+        elements.wordCountBadge.className = 'font-bold px-2.5 py-0.5 rounded-full bg-rose-100 text-rose-700';
+      } else if (count >= 120 && count <= 200) {
+        elements.wordCountBadge.className = 'font-bold px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-700';
+      } else {
+        elements.wordCountBadge.className = 'font-bold px-2.5 py-0.5 rounded-full bg-blue-100 text-blue-700';
+      }
+    }
+
+    // Safe Clipboard Copy (Fallback for iFrame restrictions)
+    function copyTextToClipboard(text, successMsg = '複製成功！') {
+      const textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed';
+      textarea.style.left = '-9999px';
+      document.body.appendChild(textarea);
+      textarea.select();
+      try {
+        document.execCommand('copy');
+        showToast(successMsg);
+      } catch (err) {
+        showToast('複製失敗，請手動複製', true);
+      }
+      document.body.removeChild(textarea);
+    }
+
+    // Image Upload & Conversion to Base64
+    function handleImageFile(file) {
+      if (!file || !file.type.startsWith('image/')) {
+        showToast('請上傳有效的圖檔 (JPG, PNG 等)', true);
+        return;
+      }
+      state.selectedImageMimeType = file.type;
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        const fullBase64 = e.target.result;
+        // extract pure base64
+        state.selectedImageBase64 = fullBase64.split(',')[1];
+        elements.imagePreview.src = fullBase64;
+        elements.dropZone.classList.add('hidden');
+        elements.previewCard.classList.remove('hidden');
+        showToast('作文照片載入成功！');
+      };
+      reader.readAsDataURL(file);
+    }
+
+    // Drag and Drop
+    elements.dropZone.addEventListener('click', () => elements.fileInput.click());
+    elements.fileInput.addEventListener('change', (e) => {
+      if (e.target.files && e.target.files[0]) {
+        handleImageFile(e.target.files[0]);
+      }
+    });
+
+    elements.dropZone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      elements.dropZone.classList.add('border-macaron-rose', 'bg-pink-50/40');
+    });
+
+    elements.dropZone.addEventListener('dragleave', () => {
+      elements.dropZone.classList.remove('border-macaron-rose', 'bg-pink-50/40');
+    });
+
+    elements.dropZone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      elements.dropZone.classList.remove('border-macaron-rose', 'bg-pink-50/40');
+      if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+        handleImageFile(e.dataTransfer.files[0]);
+      }
+    });
+
+    elements.removeImageBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      state.selectedImageBase64 = null;
+      elements.imagePreview.src = '';
+      elements.fileInput.value = '';
+      elements.previewCard.classList.add('hidden');
+      elements.dropZone.classList.remove('hidden');
+    });
+
+    // Tab Mode Selection
+    elements.tabModeText.addEventListener('click', () => {
+      state.currentMode = 'text';
+      elements.tabModeText.classList.add('tab-active');
+      elements.tabModePhoto.classList.remove('tab-active');
+      elements.textInputContainer.classList.remove('hidden');
+      elements.photoInputContainer.classList.add('hidden');
+    });
+
+    elements.tabModePhoto.addEventListener('click', () => {
+      state.currentMode = 'photo';
+      elements.tabModePhoto.classList.add('tab-active');
+      elements.tabModeText.classList.remove('tab-active');
+      elements.photoInputContainer.classList.remove('hidden');
+      elements.textInputContainer.classList.add('hidden');
+    });
+
+    // B1 / B2 Tab Switching
+    elements.tabB1Btn.addEventListener('click', () => {
+      elements.tabB1Btn.classList.add('tab-active');
+      elements.tabB2Btn.classList.remove('tab-active');
+      elements.contentB1.classList.remove('hidden');
+      elements.contentB2.classList.add('hidden');
+    });
+
+    elements.tabB2Btn.addEventListener('click', () => {
+      elements.tabB2Btn.classList.add('tab-active');
+      elements.tabB1Btn.classList.remove('tab-active');
+      elements.contentB2.classList.remove('hidden');
+      elements.contentB1.classList.add('hidden');
+    });
+
+    // Word count live listener
+    elements.essayTextInput.addEventListener('input', updateWordCountDisplay);
+
+    // Load Sample Function
+    function loadSampleData() {
+      elements.topicInput.value = sampleEssay.topic;
+      elements.essayTextInput.value = sampleEssay.text;
+      updateWordCountDisplay();
+      if (state.currentMode !== 'text') {
+        elements.tabModeText.click();
+      }
+      showToast('已載入高三學測練習範文！');
+    }
+    elements.loadSampleBtn.addEventListener('click', loadSampleData);
+    elements.quickTryBtn.addEventListener('click', loadSampleData);
+
+    // API Key Modal Controls
+    elements.openApiKeyBtn.addEventListener('click', () => {
+      elements.apiKeyInput.value = state.apiKey;
+      elements.apiKeyModal.classList.remove('hidden');
+    });
+    elements.closeApiKeyBtn.addEventListener('click', () => {
+      elements.apiKeyModal.classList.add('hidden');
+    });
+    elements.saveApiKeyBtn.addEventListener('click', () => {
+      const val = elements.apiKeyInput.value.trim();
+      state.apiKey = val;
+      localStorage.setItem('gemini_api_key', val);
+      updateKeyStatus();
+      elements.apiKeyModal.classList.add('hidden');
+      showToast('API Key 儲存成功！');
+    });
+    elements.clearApiKeyBtn.addEventListener('click', () => {
+      state.apiKey = '';
+      localStorage.removeItem('gemini_api_key');
+      elements.apiKeyInput.value = '';
+      updateKeyStatus();
+      elements.apiKeyModal.classList.add('hidden');
+      showToast('已清除 API Key');
+    });
+    elements.toggleKeyVisibility.addEventListener('click', () => {
+      const isPwd = elements.apiKeyInput.type === 'password';
+      elements.apiKeyInput.type = isPwd ? 'text' : 'password';
+      elements.toggleKeyVisibility.innerHTML = isPwd ? '<i class="fa-regular fa-eye-slash"></i>' : '<i class="fa-regular fa-eye"></i>';
+    });
+
+    // Build Prompt with System Instruction and Strict GSAT Rubric
+    function constructPayload(userText, topic, base64Image, mimeType) {
+      const systemPrompt = `
+你是一位經驗豐富、耐心且極具親和力的台灣高中英文寫作名師，專門輔導高三學生衝刺大學學測英文作文。
+你的任務是針對學生提供的作文（純文字或由手寫照片辨識）進行最專業、溫和且具體的評分與修改。
+評分依據為台灣大學學測（英文非選擇題）官方指標，總分為20分：
+1. 內容 (Content) - 佔 5 分：主題切合、內容充實有具體細節。
+2. 組織 (Organization) - 佔 5 分：清楚的起承轉合、轉折詞(transition words)流暢。
+3. 文法與句構 (Grammar and Sentence Structure) - 佔 5 分：語法正確度、時態一致性、分詞構句/關係子句等豐富度。
+4. 字彙與拼字 (Vocabulary and Spelling) - 佔 5 分：單字精確度、避免重複簡單國中單字。
+額外扣分機制：若字數不足 120 字，扣總分 1-2 分。
+
+你必須以繁體中文撰寫所有解說，以第二人稱（你/學生）進行直接溝通，語氣像良師益友，解釋『為什麼這樣改更好』。
+提供回饋結構必須完整包含：
+- transcription: (若為圖片，請完整提取照片中的手寫英文文字；若為純文字輸入，則直接回傳原文)
+- wordCount: 學生作文總字數
+- score: { total, content, organization, grammar, vocabulary, penaltyNote, contentSummary, orgSummary, grammarSummary, vocabSummary }
+- grammarErrors: [ { errorText: "原文錯誤", reason: "詳細文法解釋(例如時態、主動詞配合)", correction: "正確建議" } ]
+- comparisonTable: [ { original: "你的句子", suggestion: "修改句子的建議", reason: "解釋理由" } ]
+- polishedArticle: 完整潤飾後的文章，在所有修改過的字詞或句型前後加上雙星號標記（如：**modified phrase**）
+- b1Article: 針對相同內容的 B1 程度修改版本（清楚、少錯、基本複合法與轉折詞，適合穩固均標/前標）
+- b2Article: 針對相同內容的 B2 程度修改版本（運用高階字彙、多樣從屬子句、分詞構句或倒裝句，適合衝刺15級頂標）
+- keyVocab: [ { word: "高頻詞彙/片語", partOfSpeech: "詞性", meaning: "中文釋義", example: "學測實用例句" } ] (至少4組)
+- teacherMessage: 給學生的溫暖總評與鼓勵，整理本次寫作的學習核心與叮嚀
+`;
+
+      const userInstruction = `
+題目/情境：${topic || '未特別指定（請就文章內文評估）'}
+${userText ? `學生英文作文內容：\n"""\n${userText}\n"""` : '請先仔細辨識手寫照片中的英文文字，再進行全方位批改。'}
+請依據上述評分規準與 JSON Schema 輸出完整繁體中文批改診斷報告。
+`;
+
+      const parts = [{ text: userInstruction }];
+      if (base64Image) {
+        parts.push({
+          inlineData: {
+            mimeType: mimeType || 'image/jpeg',
+            data: base64Image
+          }
+        });
+      }
+
+      return {
+        contents: [
+          {
+            role: 'user',
+            parts: parts
+          }
+        ],
+        systemInstruction: {
+          parts: [{ text: systemPrompt }]
+        },
+        generationConfig: {
+          responseMimeType: "application/json",
+          responseSchema: {
+            type: "OBJECT",
+            properties: {
+              transcription: { type: "STRING" },
+              wordCount: { type: "INTEGER" },
+              score: {
+                type: "OBJECT",
+                properties: {
+                  total: { type: "NUMBER" },
+                  content: { type: "NUMBER" },
+                  organization: { type: "NUMBER" },
+                  grammar: { type: "NUMBER" },
+                  vocabulary: { type: "NUMBER" },
+                  penaltyNote: { type: "STRING" },
+                  contentSummary: { type: "STRING" },
+                  orgSummary: { type: "STRING" },
+                  grammarSummary: { type: "STRING" },
+                  vocabSummary: { type: "STRING" }
+                },
+                required: ["total", "content", "organization", "grammar", "vocabulary"]
+              },
+              grammarErrors: {
+                type: "ARRAY",
+                items: {
+                  type: "OBJECT",
+                  properties: {
+                    errorText: { type: "STRING" },
+                    reason: { type: "STRING" },
+                    correction: { type: "STRING" }
+                  },
+                  required: ["errorText", "reason", "correction"]
+                }
+              },
+              comparisonTable: {
+                type: "ARRAY",
+                items: {
+                  type: "OBJECT",
+                  properties: {
+                    original: { type: "STRING" },
+                    suggestion: { type: "STRING" },
+                    reason: { type: "STRING" }
+                  },
+                  required: ["original", "suggestion", "reason"]
+                }
+              },
+              polishedArticle: { type: "STRING" },
+              b1Article: { type: "STRING" },
+              b2Article: { type: "STRING" },
+              keyVocab: {
+                type: "ARRAY",
+                items: {
+                  type: "OBJECT",
+                  properties: {
+                    word: { type: "STRING" },
+                    partOfSpeech: { type: "STRING" },
+                    meaning: { type: "STRING" },
+                    example: { type: "STRING" }
+                  },
+                  required: ["word", "meaning", "example"]
+                }
+              },
+              teacherMessage: { type: "STRING" }
+            },
+            required: ["score", "grammarErrors", "comparisonTable", "polishedArticle", "b1Article", "b2Article", "keyVocab", "teacherMessage"]
+          }
+        }
+      };
+    }
+
+    async function callGeminiAPI(payload) {
+      const apiKey = state.apiKey || "";
+      const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`;
+
+      const maxRetries = 3;
+      let delay = 1000;
+
+      for (let attempt = 0; attempt <= maxRetries; attempt++) {
+        try {
+          const response = await fetch(apiUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+          });
+
+          if (!response.ok) {
+            const errData = await response.json().catch(() => ({}));
+            if (response.status === 429 && attempt < maxRetries) {
+              await new Promise(r => setTimeout(r, delay));
+              delay *= 2;
+              continue;
+            }
+            throw new Error(errData?.error?.message || `API 請求失敗 (HTTP ${response.status})`);
+          }
+
+          const result = await response.json();
+          const jsonText = result?.candidates?.[0]?.content?.parts?.[0]?.text;
+          if (!jsonText) {
+            throw new Error('未能取得 AI 生成的批改結果，請再試一次。');
+          }
+          return JSON.parse(jsonText);
+        } catch (error) {
+          if (attempt === maxRetries) {
+            throw error;
+          }
+          await new Promise(r => setTimeout(r, delay));
+          delay *= 2;
+        }
+      }
+    }
+
+    function renderGradingResult(data) {
+      state.lastResult = data;
+
+      // 1. Scores
+      elements.scoreTotal.textContent = data.score.total;
+      elements.scoreContent.textContent = `${data.score.content}/5`;
+      elements.scoreOrg.textContent = `${data.score.organization}/5`;
+      elements.scoreGrammar.textContent = `${data.score.grammar}/5`;
+      elements.scoreVocab.textContent = `${data.score.vocabulary}/5`;
+
+      if (data.score.contentSummary) elements.commentContent.textContent = data.score.contentSummary;
+      if (data.score.orgSummary) elements.commentOrg.textContent = data.score.orgSummary;
+      if (data.score.grammarSummary) elements.commentGrammar.textContent = data.score.grammarSummary;
+      if (data.score.vocabSummary) elements.commentVocab.textContent = data.score.vocabSummary;
+
+      elements.evaluatedWordCount.textContent = data.wordCount || calculateWordCount(data.transcription || elements.essayTextInput.value);
+
+      if (data.score.penaltyNote && data.score.penaltyNote.trim().length > 0) {
+        elements.penaltyNote.textContent = `(${data.score.penaltyNote})`;
+        elements.penaltyNote.classList.remove('hidden');
+      } else {
+        elements.penaltyNote.classList.add('hidden');
+      }
+
+      // Teacher encouragement
+      elements.teacherEncouragement.innerHTML = `
+        <div class="flex items-start gap-2">
+          <span class="text-rose-500 text-sm mt-0.5"><i class="fa-solid fa-heart"></i></span>
+          <div>
+            <strong class="text-purple-900 block mb-0.5">山姆老師的叮嚀與鼓勵：</strong>
+            <span>${data.teacherMessage || '整體寫作架構很完整，持續練習文法時態與多樣化句型，學測一定能拿下理想高分！'}</span>
+          </div>
+        </div>
+      `;
+
+      // 2. Grammar Errors List
+      elements.grammarErrorsList.innerHTML = '';
+      if (!data.grammarErrors || data.grammarErrors.length === 0) {
+        elements.grammarErrorsList.innerHTML = `
+          <div class="p-4 rounded-2xl bg-emerald-50 text-emerald-800 text-xs font-medium flex items-center gap-2">
+            <i class="fa-solid fa-circle-check text-emerald-500 text-base"></i>
+            太棒了！這篇文章沒有出現明顯嚴重的基礎文法錯誤，時態與語法掌握得很穩定！
+          </div>
+        `;
+      } else {
+        data.grammarErrors.forEach((item, index) => {
+          const card = document.createElement('div');
+          card.className = 'p-3.5 rounded-2xl bg-rose-50/60 border border-rose-100/90 text-xs space-y-1.5';
+          card.innerHTML = `
+            <div class="flex items-start justify-between gap-2">
+              <div class="font-bold text-rose-800 flex items-center gap-1.5">
+                <span class="w-5 h-5 rounded-md bg-rose-200 text-rose-700 flex items-center justify-center text-[10px] font-bold">${index + 1}</span>
+                <span>原文錯誤：</span>
+                <span class="line-through text-red-500 font-normal">"${item.errorText}"</span>
+              </div>
+              <span class="shrink-0 text-emerald-700 font-bold bg-white px-2 py-0.5 rounded-md shadow-xs border border-emerald-100">
+                建議：${item.correction}
+              </span>
+            </div>
+            <p class="text-gray-600 pl-6 leading-relaxed">
+              <strong>觀念解析：</strong>${item.reason}
+            </p>
+          `;
+          elements.grammarErrorsList.appendChild(card);
+        });
+      }
+
+      // 3. Comparison Table
+      elements.comparisonTableBody.innerHTML = '';
+      if (!data.comparisonTable || data.comparisonTable.length === 0) {
+        elements.comparisonTableBody.innerHTML = `
+          <tr>
+            <td colspan="3" class="p-4 text-center text-gray-400">尚無需要逐句對照的修正項目</td>
+          </tr>
+        `;
+      } else {
+        data.comparisonTable.forEach(row => {
+          const tr = document.createElement('tr');
+          tr.className = 'hover:bg-purple-50/40 transition';
+          tr.innerHTML = `
+            <td class="p-3.5 align-top text-gray-700 font-medium">${row.original}</td>
+            <td class="p-3.5 align-top text-emerald-700 font-semibold bg-emerald-50/20">${row.suggestion}</td>
+            <td class="p-3.5 align-top text-gray-600">${row.reason}</td>
+          `;
+          elements.comparisonTableBody.appendChild(tr);
+        });
+      }
+
+      // 4. Polished Article (Transform **text** to <strong> tags)
+      const formattedPolished = (data.polishedArticle || '')
+        .replace(/\*\*(.*?)\*\*/g, '<strong class="text-emerald-800 bg-emerald-100/80 px-1 py-0.5 rounded font-bold underline decoration-emerald-400">$1</strong>')
+        .replace(/\n\n/g, '</p><p class="mt-2.5">')
+        .replace(/\n/g, '<br>');
+      elements.polishedArticleText.innerHTML = `<p>${formattedPolished}</p>`;
+
+      // 5. B1 & B2 Articles
+      elements.b1ArticleText.innerHTML = (data.b1Article || '')
+        .replace(/\n\n/g, '</p><p class="mt-2.5">')
+        .replace(/\n/g, '<br>');
+      elements.b2ArticleText.innerHTML = (data.b2Article || '')
+        .replace(/\n\n/g, '</p><p class="mt-2.5">')
+        .replace(/\n/g, '<br>');
+
+      // 6. Vocab Cards
+      elements.vocabCardsGrid.innerHTML = '';
+      if (data.keyVocab && data.keyVocab.length > 0) {
+        data.keyVocab.forEach(v => {
+          const card = document.createElement('div');
+          card.className = 'p-3.5 rounded-2xl bg-amber-50/60 border border-amber-200/60 text-xs space-y-1';
+          card.innerHTML = `
+            <div class="flex items-center justify-between">
+              <span class="font-bold text-amber-900 text-sm">${v.word}</span>
+              <span class="text-[10px] bg-amber-200/80 text-amber-800 px-1.5 py-0.5 rounded font-mono">${v.partOfSpeech || 'phr.'}</span>
+            </div>
+            <div class="text-gray-700 font-medium">${v.meaning}</div>
+            <div class="text-[11px] text-gray-500 italic pt-1 border-t border-amber-100">
+              例：${v.example}
+            </div>
+          `;
+          elements.vocabCardsGrid.appendChild(card);
+        });
+      }
+
+      // Switch views: hide blank/loading, reveal result
+      elements.blankBox.classList.add('hidden');
+      elements.loadingBox.classList.add('hidden');
+      elements.resultContainer.classList.remove('hidden');
+
+      // Scroll smoothly to results
+      elements.resultContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    elements.startGradingBtn.addEventListener('click', async () => {
+      const topic = elements.topicInput.value.trim();
+      let textContent = elements.essayTextInput.value.trim();
+      const imageBase64 = state.selectedImageBase64;
+
+      // Validation
+      if (state.currentMode === 'text' && !textContent) {
+        showToast('請先鍵入或貼上英文作文內容！', true);
+        elements.essayTextInput.focus();
+        return;
+      }
+      if (state.currentMode === 'photo' && !imageBase64) {
+        showToast('請先上傳手寫作文照片！', true);
+        return;
+      }
+
+      // Prepare UI for loading
+      state.isAnalyzing = true;
+      elements.blankBox.classList.add('hidden');
+      elements.resultContainer.classList.add('hidden');
+      elements.loadingBox.classList.remove('hidden');
+      elements.startGradingBtn.disabled = true;
+      elements.startGradingBtn.classList.add('opacity-70', 'cursor-not-allowed');
+
+      const submitText = state.currentMode === 'text' ? textContent : '';
+      const submitImage = state.currentMode === 'photo' ? imageBase64 : null;
+
+      // 判斷是否使用 GAS 後端執行
+      if (typeof google !== 'undefined' && google.script && google.script.run) {
+        google.script.run
+          .withSuccessHandler((resultData) => {
+            state.isAnalyzing = false;
+            elements.startGradingBtn.disabled = false;
+            elements.startGradingBtn.classList.remove('opacity-70', 'cursor-not-allowed');
+            renderGradingResult(resultData);
+            showToast('批改與精修報告已生成！');
+          })
+          .withFailureHandler((err) => {
+            state.isAnalyzing = false;
+            elements.startGradingBtn.disabled = false;
+            elements.startGradingBtn.classList.remove('opacity-70', 'cursor-not-allowed');
+            elements.loadingBox.classList.add('hidden');
+            elements.blankBox.classList.remove('hidden');
+            console.error('GAS Error:', err);
+            showToast(`批改失敗：${err.message || err}`, true);
+          })
+          .gradeEssayServer(topic, submitText, submitImage, state.selectedImageMimeType, state.apiKey);
+      } else {
+        // 本機或離線測試 (Fallback 到前端直接呼叫)
+        try {
+          const payload = constructPayload(
+            submitText,
+            topic,
+            submitImage,
+            state.selectedImageMimeType
+          );
+          const resultData = await callGeminiAPI(payload);
+          renderGradingResult(resultData);
+          showToast('批改與精修報告已生成！');
+        } catch (err) {
+          console.error('Grading Error:', err);
+          showToast(`批改過程發生問題：${err.message || '請確認 API Key 是否有效'}`, true);
+          elements.loadingBox.classList.add('hidden');
+          elements.blankBox.classList.remove('hidden');
+        } finally {
+          state.isAnalyzing = false;
+          elements.startGradingBtn.disabled = false;
+          elements.startGradingBtn.classList.remove('opacity-70', 'cursor-not-allowed');
+        }
+      }
+    });
+
+    // Copy Article Actions
+    elements.copyPolishedBtn.addEventListener('click', () => {
+      if (state.lastResult?.polishedArticle) {
+        const clean = state.lastResult.polishedArticle.replace(/\*\*/g, '');
+        copyTextToClipboard(clean, '已複製潤飾全文！');
+      }
+    });
+
+    elements.copyB1Btn.addEventListener('click', () => {
+      if (state.lastResult?.b1Article) {
+        copyTextToClipboard(state.lastResult.b1Article, '已複製 B1 紮實篇範文！');
+      }
+    });
+
+    elements.copyB2Btn.addEventListener('click', () => {
+      if (state.lastResult?.b2Article) {
+        copyTextToClipboard(state.lastResult.b2Article, '已複製 B2 頂標金句篇範文！');
+      }
+    });
+
+    // 確保頁面無論載入先後都能立刻執行初始化
+    function initApp() {
+      updateKeyStatus();
+      updateWordCountDisplay();
+      checkBackendStatus();
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initApp);
+    } else {
+      initApp();
+    }
+  </script>
+</body></html>
